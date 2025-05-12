@@ -1,0 +1,114 @@
+/****************************************************************************
+** Interface definition generated for ActiveQt project
+**
+**     'C:\ApplicationWork\Software\OnMCURelated\Electronica_demo\P215_Tri_ELECTRONICA\Software\bin_mingw\p215.exe'
+**
+** Created:  st 31. cvc 14:31:43 2019
+**
+** WARNING! All changes made in this file will be lost!
+****************************************************************************/
+
+import "ocidl.idl";
+#include <olectl.h>
+
+[
+	uuid(3B0025AB-5059-4A89-93CA-B4313522092A),
+	version(1.0),
+	helpstring("p215 1.0 Type Library")
+]
+library p215Lib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	/************************************************************************
+	** If this causes a compile error in MIDL you need to upgrade the
+	** Platform SDK you are using. Download the SDK from msdn.microsoft.com
+	** and make sure that both the system and the Visual Studio environment
+	** use the correct files.
+	**
+	************************************************************************/
+
+	[uuid(34030f30-e359-4fe6-ab82-39766f5d91ee)]
+	struct QRect {
+		int left;
+		int top;
+		int right;
+		int bottom;
+	};
+
+	[uuid(cb5f84b3-29e5-491d-ba18-5472488eefba)]
+	struct QSize {
+		int width;
+		int height;
+	};
+
+	[uuid(3be838a3-3fac-bfc4-4c6c-37c44d030252)]
+	struct QPoint {
+		int x;
+		int y;
+	};
+
+	/* Forward declaration of classes that might be used as parameters */
+
+	coclass Bench;
+
+
+	enum MousePointer {
+		ArrowCursor             = 0,
+		UpArrowCursor           = 1,
+		CrossCursor             = 2,
+		WaitCursor              = 3,
+		IBeamCursor             = 4,
+		SizeVerCursor           = 5,
+		SizeHorCursor           = 6,
+		SizeBDiagCursor         = 7,
+		SizeFDiagCursor         = 8,
+		SizeAllCursor           = 9,
+		BlankCursor             = 10,
+		SplitVCursor            = 11,
+		SplitHCursor            = 12,
+		PointingHandCursor      = 13,
+		ForbiddenCursor         = 14,
+		WhatsThisCursor         = 15,
+		BusyCursor	= 16
+	};
+
+	enum FocusPolicy {
+		NoFocus             = 0,
+		TabFocus            = 1,
+		ClickFocus          = 2,
+		StrongFocus         = 11,
+		WheelFocus          = 15
+	};
+
+
+	[
+		uuid(CD1E1629-2331-45CD-A880-325361981B84),
+		helpstring("Bench Interface")
+	]
+	dispinterface IBench
+	{
+	properties:
+
+	methods:
+		[id(1)] void quit();
+		[id(2)] VARIANT_BOOL set([in] BSTR p_command, [in] VARIANT p_data);
+		[id(3)] VARIANT run([in] BSTR p_command, [in] VARIANT p_data);
+		[id(4)] VARIANT get([in] BSTR p_command);
+		[id(5)] VARIANT_BOOL open([in] BSTR p_portname);
+		[id(6)] VARIANT_BOOL close();
+		[id(7)] SAFEARRAY(BYTE) write([in] SAFEARRAY(BYTE) p_data);
+	};
+
+	[
+		aggregatable,
+		appobject,
+		helpstring("Bench Class"),
+		uuid(5533DC46-A6F2-45F8-A812-2A06BDE4CCC7)
+	]
+	coclass Bench
+	{
+		[default] dispinterface IBench;
+	};
+};

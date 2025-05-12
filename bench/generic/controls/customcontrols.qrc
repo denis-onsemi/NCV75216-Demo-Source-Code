@@ -1,0 +1,30 @@
+<RCC>
+
+    <qresource prefix="/switches">
+        <file alias="img_sw_off">image/img_sw_off_32x32.png</file>
+        <file alias="img_sw_on">image/img_sw_on_32x32.png</file>
+        <file alias="img_sw1_2_on1">image/img_sw1_2_on1_32x32.png</file>
+        <file alias="img_sw1_2_on2">image/img_sw1_2_on2_32x32.png</file>
+        <file alias="img_signal_0">image/img_signal_0_32x32.png</file>
+        <file alias="img_signal_1">image/img_signal_1_32x32.png</file>
+        <file alias="img_buffer_left">image/buffer_left_23x32.png</file>
+        <file alias="img_buffer_right">image/buffer_right_23x32.png</file>
+        <file alias="img_sw1_4_on1">image/img_sw1_4_on1_32x32.png</file>
+        <file alias="img_sw1_4_on2">image/img_sw1_4_on2_32x32.png</file>
+        <file alias="img_sw1_4_on3">image/img_sw1_4_on3_32x32.png</file>
+        <file alias="img_sw1_4_on4">image/img_sw1_4_on4_32x32.png</file>
+        <file alias="img_btn_off">image/img_btn_off_20x20.png</file>
+        <file alias="img_btn_on">image/img_btn_on_20x20.png</file>
+        <file alias="img_btn_on_red">image/img_btn_on_20x20_red.png</file>
+        <file alias="img_sw1_3_on3">image/img_sw1_3_on3_32x32.png</file>
+        <file alias="img_sw1_3_on1">image/img_sw1_3_on1_32x32.png</file>
+        <file alias="img_sw1_3_on2">image/img_sw1_3_on2_32x32.png</file>
+    </qresource>
+
+    <qresource prefix="/leds">
+        <file alias="img_led_gray">image/img_led_gray.png</file>
+        <file alias="img_led_green">image/img_led_green.png</file>
+        <file alias="img_led_red">image/img_led_red.png</file>
+    </qresource>
+
+</RCC>

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/board">
+        <file>board.png</file>
+    </qresource>
+    <qresource prefix="/specific"/>
+    <qresource prefix="/project">
+        <file>changes.txt</file>
+    </qresource>
+</RCC>

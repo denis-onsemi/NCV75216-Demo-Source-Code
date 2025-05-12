@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/images"/>
+    <qresource prefix="/stylesheet">
+        <file alias="stylesheet">css/stylesheet.css</file>
+    </qresource>
+    <qresource prefix="/buttons">
+        <file alias="export">image/export-icon.png</file>
+        <file alias="import">image/import-icon.png</file>
+        <file alias="refresh">image/refresh-icon.png</file>
+        <file alias="log">image/log-icon.png</file>
+        <file alias="load_config">image/load-config-icon.png</file>
+        <file alias="script">image/script-icon.png</file>
+        <file alias="vec_interp">image/vecinterp-icon.png</file>
+        <file alias="word">image/word.png</file>
+        <file alias="horn">image/horn.png</file>
+        <file alias="excel">image/Excel.png</file>
+        <file alias="monitor">image/monitor.png</file>
+    </qresource>
+</RCC>

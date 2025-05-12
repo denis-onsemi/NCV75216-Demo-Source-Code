@@ -1,0 +1,33 @@
+#include "v.h"
+1 TYPELIB "bench.rc"
+IDI_ICON1               ICON    DISCARDABLE     "onlogo.ico"
+
+    #include <windows.h>
+
+    VS_VERSION_INFO     VERSIONINFO
+    PRODUCTVERSION      0, 1, 0, 0
+    FILEFLAGSMASK       0x3fL
+    FILEFLAGS           0
+    FILEOS              VOS_NT_WINDOWS32
+    FILETYPE            VFT_APP
+    FILESUBTYPE         VFT2_UNKNOWN
+    BEGIN
+        BLOCK   "VarFileInfo"
+        BEGIN
+            VALUE   "Translation",  0x409,  1200
+        END
+        BLOCK   "StringFileInfo"
+        BEGIN
+            BLOCK   "040904b0"
+            BEGIN
+                VALUE   "CompanyName",      "ON Semiconductor\0"
+                VALUE   "FileDescription",   QMAKE_TARGET "," VERSION_DATE 
+                VALUE   "FileVersion",      "\0"
+                VALUE   "InternalName",     "\0"
+                VALUE   "LegalCopyright",   "\0"
+                VALUE   "OriginalFilename", "\0"
+                VALUE   "ProductName",      "Bench Board Software\0"
+                VALUE   "ProductVersion",   "\0"
+            END
+        END
+    END

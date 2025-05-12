@@ -1,0 +1,1 @@
+uic.exe - generates correect code for bench application applet

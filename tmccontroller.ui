@@ -1,0 +1,3957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TmcController</class>
+ <widget class="Applet" name="TmcController">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>736</width>
+    <height>698</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TmcController</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="project_app.qrc">
+    <normaloff>:/board/board.png</normaloff>:/board/board.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea_2">
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>714</width>
+        <height>4631</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_8">
+       <item row="16" column="0" colspan="2">
+        <widget class="CustomControls::FoldingBox" name="grREG14">
+         <property name="title">
+          <string>REG14</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_11">
+          <item row="2" column="0" colspan="11">
+           <widget class="Line" name="line_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="2">
+           <widget class="QLabel" name="label_170">
+            <property name="text">
+             <string>ToF1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="label_161">
+            <property name="text">
+             <string>ToF1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_168">
+            <property name="text">
+             <string>14A</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="QLabel" name="lbR14A_8_17_info">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_127">
+            <property name="text">
+             <string>Status</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="5">
+           <widget class="QLabel" name="label_162">
+            <property name="text">
+             <string>ToF2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="10">
+           <widget class="CustomControls::PushButton" name="pbNM_ReadREG14">
+            <property name="text">
+             <string>Read</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_169">
+            <property name="text">
+             <string>Status</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="5">
+           <widget class="QLabel" name="label_171">
+            <property name="text">
+             <string>Peak</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="4">
+           <widget class="QLabel" name="lbR14B_8_17_info">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="10">
+           <widget class="QLabel" name="lbR14B_24_29_info">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_167">
+            <property name="text">
+             <string>14B</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="CustomControls::LineEdit" name="leR14A_0_7"/>
+          </item>
+          <item row="5" column="3">
+           <widget class="CustomControls::LineEdit" name="leR14B_8_17"/>
+          </item>
+          <item row="5" column="6">
+           <widget class="CustomControls::LineEdit" name="leR14B_18_23"/>
+          </item>
+          <item row="1" column="3">
+           <widget class="CustomControls::LineEdit" name="leR14A_8_17"/>
+          </item>
+          <item row="1" column="6">
+           <widget class="CustomControls::LineEdit" name="leR14A_18_27"/>
+          </item>
+          <item row="5" column="1">
+           <widget class="CustomControls::LineEdit" name="leR14B_0_7"/>
+          </item>
+          <item row="1" column="7">
+           <widget class="QLabel" name="lbR14A_18_27_info">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="7">
+           <widget class="QLabel" name="label_172">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Width</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="8">
+           <widget class="CustomControls::LineEdit" name="leR14B_24_29"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="15" column="0" colspan="2">
+        <widget class="CustomControls::FoldingBox" name="grREG13">
+         <property name="title">
+          <string>REG13</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="label_126">
+            <property name="text">
+             <string>Status</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_9">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="CustomControls::LineEdit" name="leR13_0_7"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_160">
+            <property name="text">
+             <string>ToF1</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="CustomControls::LineEdit" name="leR13_8_17"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="lbR13_8_17_info">
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="CustomControls::PushButton" name="pbNM_ReadREG13">
+            <property name="text">
+             <string>Read</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="CustomControls::FoldingBox" name="grREG0">
+         <property name="title">
+          <string>REG 0</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <property name="topMargin">
+           <number>15</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Measured junction temperature</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="4">
+           <widget class="CustomControls::PushButton" name="pbNM_ReadREG0">
+            <property name="text">
+             <string>Read</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QLabel" name="lbR0_0_7_info">
+            <property name="text">
+             <string>...</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="CustomControls::LineEdit" name="leR0_0_7"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="8" column="0" colspan="2">
+        <widget class="CustomControls::FoldingBox" name="grREG7">
+         <property name="title">
+          <string>REG7</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_17">
+          <property name="topMargin">
+           <number>15</number>
+          </property>
+          <item row="1" column="3">
+           <widget class="CustomControls::CheckBox" name="cbR7_7">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_59">
+            <property name="text">
+             <string>Noise floor</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_58">
+            <property name="text">
+             <string>Noise threshold</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_90">
+            <property name="text">
+             <string>Dynamic gain control enable</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_57">
+            <property name="text">
+             <string>Static RX Gain Code</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QLabel" name="lbR7_0_6_info">
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>....</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0" colspan="3">
+           <widget class="CustomControls::PushButton" name="pbNM_ReadREG7">
+            <property name="text">
+             <string>Read</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="3" colspan="2">
+           <widget class="CustomControls::PushButton" name="pbNM_WriteREG7">
+            <property name="text">
+             <string>Write</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <spacer name="horizontalSpacer_7">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="3" column="3">
+           <widget class="CustomControls::LineEdit" name="leR7_8_13"/>
+          </item>
+          <item row="0" column="3">
+           <widget class="CustomControls::LineEdit" name="leR7_0_6"/>
+          </item>
+          <item row="4" column="3">
+           <widget class="CustomControls::LineEdit" name="leR7_14_19"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_189">
+            <property name="text">
+             <string>&lt;0, 127&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLabel" name="label_191">
+            <property name="text">
+             <string>&lt;0, 63&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLabel" name="label_190">
+            <property name="text">
+             <string>&lt;0, 63&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="12" column="0" colspan="2">
+        <widget class="CustomControls::FoldingBox" name="grREG12">
+         <property name="title">
+          <string>REG12 - MEAS DATA</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_7">
+          <property name="topMargin">
+           <number>15</number>
+          </property>
+          <item row="2" column="3">
+           <widget class="CustomControls::LineEdit" name="leR12_84_89"/>
+          </item>
+          <item row="10" column="9">
+           <widget class="CustomControls::LineEdit" name="leR12_336_341"/>
+          </item>
+          <item row="14" column="5">
+           <widget class="CustomControls::LineEdit" name="leR12_204_209"/>
+          </item>
+          <item row="14" column="3">
+           <widget class="CustomControls::LineEdit" name="leR12_132_137"/>
+          </item>
+          <item row="15" column="3">
+           <widget class="CustomControls::LineEdit" name="leR12_138_143"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="CustomControls::LineEdit" name="leR12_0_5"/>
+          </item>
+          <item row="5" column="7">
+           <widget class="CustomControls::LineEdit" name="leR12_246_251"/>
+          </item>
+          <item row="15" column="1">
+           <widget class="CustomControls::LineEdit" name="leR12_66_71"/>
+          </item>
+          <item row="3" column="3">
+           <widget class="CustomControls::LineEdit" name="leR12_90_95"/>
+          </item>
+          <item row="2" column="9">
+           <widget class="CustomControls::LineEdit" name="leR12_300_305"/>
+          </item>
+          <item row="8" column="7">
+           <widget class="CustomControls::LineEdit" name="leR12_258_263"/>
+          </item>
+          <item row="12" column="1">
+           <widget class="CustomControls::LineEdit" name="leR12_54_59"/>
+          </item>
+          <item row="12" column="3">
+           <widget class="CustomControls::LineEdit" name="leR12_126_131"/>
+          </item>
+          <item row="4" column="7">
+           <widget class="CustomControls::LineEdit" name="leR12_240_245"/>
+          </item>
+          <item row="10" column="3">
+           <widget class="CustomControls::LineEdit" name="leR12_120_125"/>
+          </item>
+          <item row="5" column="3">
+           <widget class="CustomControls::LineEdit" name="leR12_102_107"/>
+          </item>
+          <item row="15" column="9">
+           <widget class="CustomControls::LineEdit" name="leR12_354_359"/>
+          </item>
+          <item row="10" column="4">
+           <widget class="QLabel" name="label_132">
+            <property name="text">
+             <string>32</string>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="2">
+           <widget class="QLabel" name="label_107">
+            <property name="text">
+             <string>22</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="8">
+           <widget class="QLabel" name="label_155">
+            <property name="text">
+             <string>55</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="6">
+           <widget class="QLabel" name="label_140">
+            <property name="text">
+             <string>40</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_101">
+            <property name="text">
+             <string>5</string>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="4">
+           <widget class="QLabel" name="label_134">
+            <property name="text">
+             <string>34</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="2">
+           <widget class="QLabel" name="label_117">
+            <property name="text">
+             <string>17</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="label_121">
+            <property name="text">
+             <string>13</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="label_122">
+            <property name="text">
+             <string>14</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="6">
+           <widget class="QLabel" name="label_141">
+            <property name="text">
+             <string>41</string>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="2">
+           <widget class="QLabel" name="label_108">
+            <property name="text">
+             <string>23</string>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="6">
+           <widget class="QLabel" name="label_146">
+            <property name="text">
+             <string>46</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="8">
+           <widget class="QLabel" name="label_148">
+            <property name="text">
+             <string>48</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="8">
+           <widget class="QLabel" name="label_150">
+            <property name="text">
+             <string>50</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="4">
+           <widget class="QLabel" name="label_130">
+            <property name="text">
+             <string>30</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="8">
+           <widget class="QLabel" name="label_156">
+            <property name="text">
+             <string>56</string>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="4">
+           <widget class="QLabel" name="label_135">
+            <property name="text">
+             <string>35</string>
+            </property>
+           </widget>
+          </item>
+          <item row="45" column="0" colspan="5">
+           <widget class="CustomControls::PushButton" name="pbNM_ReadREG12">
+            <property name="text">
+             <string>Read</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="5">
+           <widget class="CustomControls::LineEdit" name="leR12_162_167"/>
+          </item>
+          <item row="8" column="6">
+           <widget class="QLabel" name="label_143">
+            <property name="text">
+             <string>43</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="6">
+           <widget class="QLabel" name="label_136">
+            <property name="text">
+             <string>36</string>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="8">
+           <widget class="QLabel" name="label_157">
+            <property name="text">
+             <string>57</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="8">
+           <widget class="QLabel" name="label_149">
+            <property name="text">
+             <string>49</string>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="0">
+           <widget class="QLabel" name="label_116">
+            <property name="text">
+             <string>10</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="label_115">
+            <property name="text">
+             <string>12</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_98">
+            <property name="text">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="6">
+           <widget class="QLabel" name="label_138">
+            <property name="text">
+             <string>38</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QLabel" name="label_109">
+            <property name="text">
+             <string>24</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="0">
+           <widget class="QLabel" name="label_104">
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="8">
+           <widget class="QLabel" name="label_158">
+            <property name="text">
+             <string>58</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="4">
+           <widget class="QLabel" name="label_131">
+            <property name="text">
+             <string>31</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_96">
+            <property name="text">
+             <string>1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="8">
+           <widget class="QLabel" name="label_154">
+            <property name="text">
+             <string>54</string>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="0">
+           <widget class="QLabel" name="label_103">
+            <property name="text">
+             <string>9</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="6">
+           <widget class="QLabel" name="label_142">
+            <property name="text">
+             <string>42</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="8">
+           <widget class="QLabel" name="label_153">
+            <property name="text">
+             <string>53</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="2">
+           <widget class="QLabel" name="label_124">
+            <property name="text">
+             <string>19</string>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="6">
+           <widget class="QLabel" name="label_145">
+            <property name="text">
+             <string>45</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="label_119">
+            <property name="text">
+             <string>15</string>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="6">
+           <widget class="QLabel" name="label_147">
+            <property name="text">
+             <string>47</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="6">
+           <widget class="QLabel" name="label_144">
+            <property name="text">
+             <string>44</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="7">
+           <widget class="CustomControls::LineEdit" name="leR12_252_257"/>
+          </item>
+          <item row="7" column="9">
+           <widget class="CustomControls::LineEdit" name="leR12_324_329"/>
+          </item>
+          <item row="15" column="7">
+           <widget class="CustomControls::LineEdit" name="leR12_282_287"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="CustomControls::LineEdit" name="leR12_12_17"/>
+          </item>
+          <item row="7" column="3">
+           <widget class="CustomControls::LineEdit" name="leR12_108_113"/>
+          </item>
+          <item row="10" column="2">
+           <widget class="QLabel" name="label_105">
+            <property name="text">
+             <string>20</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_97">
+            <property name="text">
+             <string>3</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="2">
+           <widget class="QLabel" name="label_123">
+            <property name="text">
+             <string>18</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="8">
+           <widget class="QLabel" name="label_152">
+            <property name="text">
+             <string>52</string>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="4">
+           <widget class="QLabel" name="label_133">
+            <property name="text">
+             <string>33</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="6">
+           <widget class="QLabel" name="label_137">
+            <property name="text">
+             <string>37</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_95">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="8">
+           <widget class="QLabel" name="label_159">
+            <property name="text">
+             <string>59</string>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="9">
+           <widget class="CustomControls::LineEdit" name="leR12_348_353"/>
+          </item>
+          <item row="4" column="9">
+           <widget class="CustomControls::LineEdit" name="leR12_312_317"/>
+          </item>
+          <item row="0" column="3">
+           <widget class="CustomControls::LineEdit" name="leR12_72_77"/>
+          </item>
+          <item row="4" column="5">
+           <widget class="CustomControls::LineEdit" name="leR12_168_173"/>
+          </item>
+          <item row="8" column="5">
+           <widget class="CustomControls::LineEdit" name="leR12_186_191"/>
+          </item>
+          <item row="7" column="5">
+           <widget class="CustomControls::LineEdit" name="leR12_180_185"/>
+          </item>
+          <item row="15" column="5">
+           <widget class="CustomControls::LineEdit" name="leR12_210_215"/>
+          </item>
+          <item row="3" column="1">
+           <widget class="CustomControls::LineEdit" name="leR12_18_23"/>
+          </item>
+          <item row="1" column="9">
+           <widget class="CustomControls::LineEdit" name="leR12_294_299"/>
+          </item>
+          <item row="1" column="3">
+           <widget class="CustomControls::LineEdit" name="leR12_78_83"/>
+          </item>
+          <item row="10" column="5">
+           <widget class="CustomControls::LineEdit" name="leR12_192_197"/>
+          </item>
+          <item row="16" column="0" colspan="10">
+           <widget class="QCustomPlot" name="ptREG12" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>200</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QLabel" name="label_118">
+            <property name="text">
+             <string>16</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="4">
+           <widget class="QLabel" name="label_111">
+            <property name="text">
+             <string>26</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="4">
+           <widget class="QLabel" name="label_113">
+            <property name="text">
+             <string>28</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_99">
+            <property name="text">
+             <string>4</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="QLabel" name="label_110">
+            <property name="text">
+             <string>25</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="8">
+           <widget class="QLabel" name="label_151">
+            <property name="text">
+             <string>51</string>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="2">
+           <widget class="QLabel" name="label_106">
+            <property name="text">
+             <string>21</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLabel" name="label_102">
+            <property name="text">
+             <string>7</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="4">
+           <widget class="QLabel" name="label_112">
+            <property name="text">
+             <string>27</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="6">
+           <widget class="QLabel" name="label_139">
+            <property name="text">
+             <string>39</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0">
+           <widget class="QLabel" name="label_100">
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="4">
+           <widget class="QLabel" name="label_114">
+            <property name="text">
+             <string>29</string>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="0">
+           <widget class="QLabel" name="label_120">
+            <property name="text">
+             <string>11</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="7">
+           <widget class="CustomControls::LineEdit" name="leR12_234_239"/>
+          </item>
+          <item row="10" column="7">
+           <widget class="CustomControls::LineEdit" name="leR12_264_269"/>
+          </item>
+          <item row="2" column="7">
+           <widget class="CustomControls::LineEdit" name="leR12_228_233"/>
+          </item>
+          <item row="10" column="1">
+           <widget class="CustomControls::LineEdit" name="leR12_48_53"/>
+          </item>
+          <item row="4" column="1">
+           <widget class="CustomControls::LineEdit" name="leR12_24_29"/>
+          </item>
+          <item row="3" column="9">
+           <widget class="CustomControls::LineEdit" name="leR12_306_311"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="CustomControls::LineEdit" name="leR12_6_11"/>
+          </item>
+          <item row="1" column="7">
+           <widget class="CustomControls::LineEdit" name="leR12_222_227"/>
+          </item>
+          <item row="12" column="5">
+           <widget class="CustomControls::LineEdit" name="leR12_198_203"/>
+          </item>
+          <item row="7" column="1">
+           <widget class="CustomControls::LineEdit" name="leR12_36_41"/>
+          </item>
+          <item row="0" column="9">
+           <widget class="CustomControls::LineEdit" name="leR12_288_293"/>
+          </item>
+          <item row="0" column="5">
+           <widget class="CustomControls::LineEdit" name="leR12_144_149"/>
+          </item>
+          <item row="1" column="5">
+           <widget class="CustomControls::LineEdit" name="leR12_150_155"/>
+          </item>
+          <item row="8" column="1">
+           <widget class="CustomControls::LineEdit" name="leR12_42_47"/>
+          </item>
+          <item row="14" column="1">
+           <widget class="CustomControls::LineEdit" name="leR12_60_65"/>
+          </item>
+          <item row="4" column="3">
+           <widget class="CustomControls::LineEdit" name="leR12_96_101"/>
+          </item>
+          <item row="0" column="7">
+           <widget class="CustomControls::LineEdit" name="leR12_216_221"/>
+          </item>
+          <item row="8" column="3">
+           <widget class="CustomControls::LineEdit" name="leR12_114_119"/>
+          </item>
+          <item row="5" column="9">
+           <widget class="CustomControls::LineEdit" name="leR12_318_323"/>
+          </item>
+          <item row="14" column="7">
+           <widget class="CustomControls::LineEdit" name="leR12_276_281"/>
+          </item>
+          <item row="5" column="5">
+           <widget class="CustomControls::LineEdit" name="leR12_174_179"/>
+          </item>
+          <item row="12" column="7">
+           <widget class="CustomControls::LineEdit" name="leR12_270_275"/>
+          </item>
+          <item row="8" column="9">
+           <widget class="CustomControls::LineEdit" name="leR12_330_335"/>
+          </item>
+          <item row="12" column="9">
+           <widget class="CustomControls::LineEdit" name="leR12_342_347"/>
+          </item>
+          <item row="2" column="5">
+           <widget class="CustomControls::LineEdit" name="leR12_156_161"/>
+          </item>
+          <item row="5" column="1">
+           <widget class="CustomControls::LineEdit" name="leR12_30_35"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="10" column="0" colspan="2">
+        <widget class="CustomControls::FoldingBox" name="grREG9">
+         <property name="title">
+          <string>REG9 -  generic user data</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_18">
+          <property name="topMargin">
+           <number>15</number>
+          </property>
+          <item row="1" column="0" colspan="2">
+           <widget class="CustomControls::SuperBox" name="sbREG9" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>150</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="CustomControls::PushButton" name="pbNM_WriteREG9">
+            <property name="text">
+             <string>Write</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="CustomControls::PushButton" name="pbNM_ReadREG9">
+            <property name="text">
+             <string>Read</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="20" column="0" colspan="2">
+        <widget class="QWidget" name="widget" native="true">
+         <layout class="QGridLayout" name="gridLayout_20">
+          <item row="0" column="0">
+           <widget class="CustomControls::PushButton" name="pbNM_WriteAll">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Write All</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="CustomControls::PushButton" name="pbNM_ReadAll">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Read All</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="CustomControls::PushButton" name="pbNM_WriteToAllDUTs">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Write All to All 4 DUTs</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="11" column="0" colspan="2">
+        <widget class="CustomControls::FoldingBox" name="grREG10">
+         <property name="title">
+          <string>REG10</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <property name="topMargin">
+           <number>15</number>
+          </property>
+          <item row="14" column="0">
+           <widget class="QLabel" name="label_56">
+            <property name="text">
+             <string>Automatic echo debounce time control enable</string>
+            </property>
+           </widget>
+          </item>
+          <item row="28" column="0">
+           <widget class="QLabel" name="label_93">
+            <property name="text">
+             <string>End of reverberation threshold</string>
+            </property>
+           </widget>
+          </item>
+          <item row="25" column="2">
+           <widget class="CustomControls::CheckBox" name="cbR10_54">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="30" column="0">
+           <widget class="QLabel" name="label_82">
+            <property name="text">
+             <string>Peak of parasitic echo to supress at the end of reverberations</string>
+            </property>
+           </widget>
+          </item>
+          <item row="13" column="0">
+           <widget class="QLabel" name="label_55">
+            <property name="text">
+             <string>DSP filter auto Q factor control enable</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="2">
+           <widget class="CustomControls::CheckBox" name="cbR10_30">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="2">
+           <widget class="CustomControls::CheckBox" name="cbR10_44">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLabel" name="label_89">
+            <property name="text">
+             <string>Noise supression Enable</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_73">
+            <property name="text">
+             <string>Current Adjustment</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="2">
+           <widget class="CustomControls::CheckBox" name="cbR10_31">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="28" column="2">
+           <widget class="CustomControls::CheckBox" name="cbR10_56">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="29" column="2">
+           <widget class="CustomControls::CheckBox" name="cbR10_57">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="18" column="2">
+           <widget class="CustomControls::CheckBox" name="cbR10_47">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="0">
+           <widget class="QLabel" name="label_80">
+            <property name="text">
+             <string>DSP filter Q Factor</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_72">
+            <property name="text">
+             <string>Reverbration / Decay Monitoring Window Duration</string>
+            </property>
+           </widget>
+          </item>
+          <item row="17" column="0">
+           <widget class="QLabel" name="label_87">
+            <property name="text">
+             <string>Advance IO LIne protocol enable</string>
+            </property>
+           </widget>
+          </item>
+          <item row="27" column="2">
+           <widget class="CustomControls::CheckBox" name="cbR10_55">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="16" column="2">
+           <widget class="CustomControls::CheckBox" name="cbR10_45">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="2">
+           <widget class="CustomControls::CheckBox" name="cbR10_43">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="25" column="0">
+           <widget class="QLabel" name="label_91">
+            <property name="text">
+             <string>Advanced IO indirect measurement skip first echo</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="label_76">
+            <property name="text">
+             <string>Monitoring window step</string>
+            </property>
+           </widget>
+          </item>
+          <item row="24" column="0">
+           <widget class="QLabel" name="label_81">
+            <property name="text">
+             <string>End of reverberation timeout</string>
+            </property>
+           </widget>
+          </item>
+          <item row="33" column="0">
+           <widget class="QLabel" name="label_164">
+            <property name="text">
+             <string>Index 14 format selection</string>
+            </property>
+           </widget>
+          </item>
+          <item row="32" column="0">
+           <widget class="QLabel" name="label_163">
+            <property name="text">
+             <string>Index 2 format selection</string>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="0">
+           <widget class="QLabel" name="label_85">
+            <property name="text">
+             <string>Internal IO Line pull-up enable</string>
+            </property>
+           </widget>
+          </item>
+          <item row="17" column="2">
+           <widget class="CustomControls::CheckBox" name="cbR10_46">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="13" column="2">
+           <widget class="CustomControls::CheckBox" name="cbR10_42">
+            <property name="accessibleName">
+             <string/>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="0">
+           <widget class="QLabel" name="label_78">
+            <property name="text">
+             <string>ToF calibration</string>
+            </property>
+           </widget>
+          </item>
+          <item row="29" column="0">
+           <widget class="QLabel" name="label_94">
+            <property name="text">
+             <string>IO Line 99.2 uS echo duration limitation enabled</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0">
+           <widget class="QLabel" name="label_77">
+            <property name="text">
+             <string>Automatic carrier period control</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_74">
+            <property name="text">
+             <string>Reverberation period Variation Limit</string>
+            </property>
+           </widget>
+          </item>
+          <item row="36" column="0">
+           <widget class="CustomControls::PushButton" name="pbNM_ReadREG10">
+            <property name="text">
+             <string>Read</string>
+            </property>
+           </widget>
+          </item>
+          <item row="36" column="1" colspan="2">
+           <widget class="CustomControls::PushButton" name="pbNM_WriteREG10">
+            <property name="text">
+             <string>Write</string>
+            </property>
+           </widget>
+          </item>
+          <item row="16" column="0">
+           <widget class="QLabel" name="label_86">
+            <property name="text">
+             <string>IO Line slope control</string>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="0">
+           <widget class="QLabel" name="label_79">
+            <property name="text">
+             <string>Reverberation debounce time</string>
+            </property>
+           </widget>
+          </item>
+          <item row="18" column="0">
+           <widget class="QLabel" name="label_88">
+            <property name="text">
+             <string>Trec1 Threshold control enable</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_75">
+            <property name="text">
+             <string>Monitoring window start</string>
+            </property>
+           </widget>
+          </item>
+          <item row="27" column="0">
+           <widget class="QLabel" name="label_92">
+            <property name="text">
+             <string>IO Line Transducer Diagnostic Reporting Enable</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QLabel" name="lbR10_0_7_info">
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>....</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="3">
+           <widget class="QLabel" name="lbR10_16_27_info">
+            <property name="text">
+             <string>....</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="3">
+           <widget class="QLabel" name="lbR10_32_37_info">
+            <property name="text">
+             <string>....</string>
+            </property>
+           </widget>
+          </item>
+          <item row="24" column="3">
+           <widget class="QLabel" name="lbR10_48_53_info">
+            <property name="text">
+             <string>....</string>
+            </property>
+           </widget>
+          </item>
+          <item row="24" column="2">
+           <widget class="CustomControls::LineEdit" name="leR10_48_53"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="CustomControls::LineEdit" name="leR10_0_7"/>
+          </item>
+          <item row="10" column="2">
+           <widget class="CustomControls::LineEdit" name="leR10_32_37"/>
+          </item>
+          <item row="5" column="2">
+           <widget class="CustomControls::LineEdit" name="leR10_16_27"/>
+          </item>
+          <item row="3" column="2">
+           <widget class="CustomControls::LineEdit" name="leR10_8_13">
+            <property name="accessibleName">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="2">
+           <widget class="CustomControls::ComboBox" name="cmR10_28_29">
+            <item>
+             <property name="text">
+              <string>25.6us</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>51.2us</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>102.4us</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>204.8us</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="33" column="2">
+           <widget class="CustomControls::ComboBox" name="cmR10_61">
+            <item>
+             <property name="text">
+              <string>14A</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>14B</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="11" column="2">
+           <widget class="CustomControls::ComboBox" name="cmR10_38_39">
+            <item>
+             <property name="text">
+              <string>60us</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>100us</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>140us</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>180us</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="12" column="2">
+           <widget class="CustomControls::ComboBox" name="cmR10_40_41">
+            <item>
+             <property name="text">
+              <string>Q=5</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Q=10</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Q=20</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Q=dep</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="CustomControls::ComboBox" name="cmR10_14_15">
+            <item>
+             <property name="text">
+              <string>2.34%</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>5.4%</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>8.2%</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>12.5%</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="30" column="2">
+           <widget class="CustomControls::ComboBox" name="cmR10_58_59">
+            <item>
+             <property name="text">
+              <string>0- low</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1-medium</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2-high</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="32" column="2">
+           <widget class="CustomControls::ComboBox" name="cmR10_60">
+            <item>
+             <property name="text">
+              <string>2A</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2B</string>
+             </property>
+            </item>
+            <widget class="CustomControls::ComboBox" name="cmR10_62">
+             <property name="geometry">
+              <rect>
+               <x>515</x>
+               <y>10</y>
+               <width>133</width>
+               <height>22</height>
+              </rect>
+             </property>
+             <item>
+              <property name="text">
+               <string>2A</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2B</string>
+              </property>
+             </item>
+            </widget>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLabel" name="label_195">
+            <property name="text">
+             <string>&lt;0, 63&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_196">
+            <property name="text">
+             <string>&lt;0, 255&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLabel" name="label_197">
+            <property name="text">
+             <string>&lt;0, 4095&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="1">
+           <widget class="QLabel" name="label_198">
+            <property name="text">
+             <string>&lt;0, 63&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="24" column="1">
+           <widget class="QLabel" name="label_199">
+            <property name="text">
+             <string>&lt;0, 63&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="QLabel" name="lbR10_8_13_info">
+            <property name="text">
+             <string>...</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="2">
+        <widget class="CustomControls::FoldingBox" name="grREG4">
+         <property name="title">
+          <string>REG4</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <property name="topMargin">
+           <number>15</number>
+          </property>
+          <item row="1" column="2">
+           <widget class="CustomControls::ComboBox" name="cmR4_0_3">
+            <item>
+             <property name="text">
+              <string>0ms</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>6ms</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>12ms</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>18ms</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>24ms</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>30ms</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>36ms</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>42ms</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>48ms</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>54ms</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>60ms</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>Measurement duration</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <spacer name="horizontalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="3">
+           <widget class="CustomControls::PushButton" name="pbNM_ReadREG4">
+            <property name="text">
+             <string>Read</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="CustomControls::PushButton" name="pbNM_WriteREG4">
+            <property name="text">
+             <string>Write</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="4" column="0" colspan="2">
+        <widget class="CustomControls::FoldingBox" name="grREG3">
+         <property name="title">
+          <string>REG3</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_14">
+          <property name="topMargin">
+           <number>15</number>
+          </property>
+          <item row="1" column="4">
+           <widget class="CustomControls::PushButton" name="pbNM_ReadREG3">
+            <property name="text">
+             <string>Read</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>TX Burst pulse count</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="5">
+           <widget class="CustomControls::PushButton" name="pbNM_WriteREG3">
+            <property name="text">
+             <string>Write</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QLabel" name="label_178">
+            <property name="text">
+             <string>&lt;0, 31&gt; pulses</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="CustomControls::LineEdit" name="leR3_0_4"/>
+          </item>
+          <item row="1" column="2">
+           <spacer name="horizontalSpacer_15">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="6" column="0" colspan="2">
+        <widget class="CustomControls::FoldingBox" name="grREG5">
+         <property name="title">
+          <string>REG5 -  THR1</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_15">
+          <property name="topMargin">
+           <number>15</number>
+          </property>
+          <item row="2" column="0">
+           <widget class="CustomControls::PushButton" name="pbNM_ReadREG5">
+            <property name="text">
+             <string>Read</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="CustomControls::PushButton" name="pbNM_WriteREG5">
+            <property name="text">
+             <string>Write</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0" colspan="2">
+           <widget class="QFrame" name="frame">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_5">
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string>LVL4</string>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="0">
+              <widget class="QLabel" name="label_15">
+               <property name="text">
+                <string>LVL8</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_11">
+               <property name="text">
+                <string>LVL2</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_13">
+               <property name="text">
+                <string>LVL5</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="1">
+              <widget class="CustomControls::LineEdit" name="leR5_42_47"/>
+             </item>
+             <item row="5" column="4">
+              <widget class="CustomControls::LineEdit" name="leR5_88_91"/>
+             </item>
+             <item row="4" column="1">
+              <widget class="CustomControls::LineEdit" name="leR5_18_23"/>
+             </item>
+             <item row="1" column="1">
+              <widget class="CustomControls::LineEdit" name="leR5_0_5"/>
+             </item>
+             <item row="2" column="4">
+              <widget class="CustomControls::LineEdit" name="leR5_76_79"/>
+             </item>
+             <item row="6" column="4">
+              <widget class="CustomControls::LineEdit" name="leR5_92_95"/>
+             </item>
+             <item row="5" column="1">
+              <widget class="CustomControls::LineEdit" name="leR5_24_29"/>
+             </item>
+             <item row="9" column="4">
+              <widget class="CustomControls::LineEdit" name="leR5_104_107"/>
+             </item>
+             <item row="8" column="4">
+              <widget class="CustomControls::LineEdit" name="leR5_100_103"/>
+             </item>
+             <item row="4" column="4">
+              <widget class="CustomControls::LineEdit" name="leR5_84_87"/>
+             </item>
+             <item row="6" column="1">
+              <widget class="CustomControls::LineEdit" name="leR5_30_35"/>
+             </item>
+             <item row="3" column="4">
+              <widget class="CustomControls::LineEdit" name="leR5_80_83"/>
+             </item>
+             <item row="10" column="1">
+              <widget class="CustomControls::LineEdit" name="leR5_54_59"/>
+             </item>
+             <item row="1" column="4">
+              <widget class="CustomControls::LineEdit" name="leR5_72_75"/>
+             </item>
+             <item row="11" column="1">
+              <widget class="CustomControls::LineEdit" name="leR5_60_65"/>
+             </item>
+             <item row="9" column="1">
+              <widget class="CustomControls::LineEdit" name="leR5_48_53"/>
+             </item>
+             <item row="7" column="4">
+              <widget class="CustomControls::LineEdit" name="leR5_96_99"/>
+             </item>
+             <item row="12" column="1">
+              <widget class="CustomControls::LineEdit" name="leR5_66_71"/>
+             </item>
+             <item row="10" column="4">
+              <widget class="CustomControls::LineEdit" name="leR5_108_111"/>
+             </item>
+             <item row="12" column="4">
+              <widget class="CustomControls::LineEdit" name="leR5_116_119"/>
+             </item>
+             <item row="7" column="1">
+              <widget class="CustomControls::LineEdit" name="leR5_36_41"/>
+             </item>
+             <item row="2" column="1">
+              <widget class="CustomControls::LineEdit" name="leR5_6_11"/>
+             </item>
+             <item row="11" column="4">
+              <widget class="CustomControls::LineEdit" name="leR5_112_115"/>
+             </item>
+             <item row="3" column="1">
+              <widget class="CustomControls::LineEdit" name="leR5_12_17"/>
+             </item>
+             <item row="10" column="3">
+              <widget class="QLabel" name="label_28">
+               <property name="text">
+                <string>DT9</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_8">
+               <property name="text">
+                <string>LVL1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2">
+              <spacer name="horizontalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="9" column="3">
+              <widget class="QLabel" name="label_27">
+               <property name="text">
+                <string>DT8</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="3">
+              <widget class="QLabel" name="label_22">
+               <property name="text">
+                <string>DT3</string>
+               </property>
+              </widget>
+             </item>
+             <item row="12" column="3">
+              <widget class="QLabel" name="label_30">
+               <property name="text">
+                <string>DT11</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="3">
+              <widget class="QLabel" name="label_23">
+               <property name="text">
+                <string>DT4</string>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="0">
+              <widget class="QLabel" name="label_17">
+               <property name="text">
+                <string>LVL10</string>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="3">
+              <widget class="QLabel" name="label_29">
+               <property name="text">
+                <string>DT10</string>
+               </property>
+              </widget>
+             </item>
+             <item row="12" column="0">
+              <widget class="QLabel" name="label_18">
+               <property name="text">
+                <string>LVL11</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="3">
+              <widget class="QLabel" name="label_20">
+               <property name="text">
+                <string>DT1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="0">
+              <widget class="QLabel" name="label_16">
+               <property name="text">
+                <string>LVL9</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="3">
+              <widget class="QLabel" name="label_24">
+               <property name="text">
+                <string>DT5</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_10">
+               <property name="text">
+                <string>LVL3</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_12">
+               <property name="text">
+                <string>LVL6</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="3">
+              <widget class="QLabel" name="label_21">
+               <property name="text">
+                <string>DT2</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="3">
+              <widget class="QLabel" name="label_26">
+               <property name="text">
+                <string>DT7</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="3">
+              <widget class="QLabel" name="label_25">
+               <property name="text">
+                <string>DT6</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_7">
+               <property name="text">
+                <string>LVL0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="0">
+              <widget class="QLabel" name="label_14">
+               <property name="text">
+                <string>LVL7</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="3">
+              <widget class="QLabel" name="label_19">
+               <property name="text">
+                <string>DT0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="5">
+              <widget class="QLabel" name="leTHR1_DT0">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="5">
+              <widget class="QLabel" name="leTHR1_DT1">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="5">
+              <widget class="QLabel" name="leTHR1_DT2">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="5">
+              <widget class="QLabel" name="leTHR1_DT3">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="5">
+              <widget class="QLabel" name="leTHR1_DT4">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="5">
+              <widget class="QLabel" name="leTHR1_DT5">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="5">
+              <widget class="QLabel" name="leTHR1_DT6">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="5">
+              <widget class="QLabel" name="leTHR1_DT7">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="5">
+              <widget class="QLabel" name="leTHR1_DT8">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="5">
+              <widget class="QLabel" name="leTHR1_DT9">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="5">
+              <widget class="QLabel" name="leTHR1_DT10">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="12" column="5">
+              <widget class="QLabel" name="leTHR1_DT11">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLabel" name="label_185">
+               <property name="text">
+                <string>&lt;0, 63&gt;</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="4">
+              <widget class="QLabel" name="label_186">
+               <property name="text">
+                <string>&lt;0, 15&gt;</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="2">
+           <widget class="QCustomPlot" name="ptREG5" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>200</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="CustomControls::FoldingBox" name="grREG1">
+         <property name="title">
+          <string>REG1</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_10">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>Sensor status</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Measured reverberation</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <spacer name="horizontalSpacer_13">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="2">
+           <widget class="CustomControls::LineEdit" name="leR1_8_18"/>
+          </item>
+          <item row="1" column="3">
+           <widget class="QLabel" name="lbR1_8_18_info">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="CustomControls::PushButton" name="pbNM_ReadREG1">
+            <property name="text">
+             <string>Read</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1" colspan="3">
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="CustomControls::CheckBox" name="checkBox">
+              <property name="toolTip">
+               <string/>
+              </property>
+              <property name="accessibleName">
+               <string>R1[0]</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="CustomControls::CheckBox" name="checkBox_2">
+              <property name="accessibleName">
+               <string>R1[1]</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="CustomControls::CheckBox" name="checkBox_3">
+              <property name="accessibleName">
+               <string>R1[2]</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="CustomControls::CheckBox" name="checkBox_4">
+              <property name="accessibleName">
+               <string>R1[3]</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="CustomControls::CheckBox" name="checkBox_5">
+              <property name="accessibleName">
+               <string>R1[4]</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="CustomControls::CheckBox" name="checkBox_6">
+              <property name="accessibleName">
+               <string>R1[5]</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="CustomControls::CheckBox" name="checkBox_7">
+              <property name="accessibleName">
+               <string>R1[6]</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="CustomControls::CheckBox" name="checkBox_8">
+              <property name="accessibleName">
+               <string>R1[7]</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="7" column="0" colspan="2">
+        <widget class="CustomControls::FoldingBox" name="grREG6">
+         <property name="title">
+          <string>REG6 - THR2</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_16">
+          <property name="topMargin">
+           <number>15</number>
+          </property>
+          <item row="2" column="0">
+           <widget class="CustomControls::PushButton" name="pbNM_ReadREG6">
+            <property name="text">
+             <string>Read</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="CustomControls::PushButton" name="pbNM_WriteREG6">
+            <property name="text">
+             <string>Write</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0" colspan="2">
+           <widget class="QFrame" name="frame_2">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_6">
+             <item row="12" column="1">
+              <widget class="CustomControls::LineEdit" name="leR6_66_71"/>
+             </item>
+             <item row="12" column="4">
+              <widget class="CustomControls::LineEdit" name="leR6_116_119"/>
+             </item>
+             <item row="6" column="4">
+              <widget class="CustomControls::LineEdit" name="leR6_92_95"/>
+             </item>
+             <item row="7" column="1">
+              <widget class="CustomControls::LineEdit" name="leR6_36_41"/>
+             </item>
+             <item row="7" column="4">
+              <widget class="CustomControls::LineEdit" name="leR6_96_99"/>
+             </item>
+             <item row="5" column="4">
+              <widget class="CustomControls::LineEdit" name="leR6_88_91"/>
+             </item>
+             <item row="6" column="1">
+              <widget class="CustomControls::LineEdit" name="leR6_30_35"/>
+             </item>
+             <item row="1" column="1">
+              <widget class="CustomControls::LineEdit" name="leR6_0_5"/>
+             </item>
+             <item row="1" column="4">
+              <widget class="CustomControls::LineEdit" name="leR6_72_75"/>
+             </item>
+             <item row="4" column="4">
+              <widget class="CustomControls::LineEdit" name="leR6_84_87"/>
+             </item>
+             <item row="5" column="1">
+              <widget class="CustomControls::LineEdit" name="leR6_24_29"/>
+             </item>
+             <item row="9" column="4">
+              <widget class="CustomControls::LineEdit" name="leR6_104_107"/>
+             </item>
+             <item row="10" column="1">
+              <widget class="CustomControls::LineEdit" name="leR6_54_59"/>
+             </item>
+             <item row="3" column="1">
+              <widget class="CustomControls::LineEdit" name="leR6_12_17"/>
+             </item>
+             <item row="3" column="4">
+              <widget class="CustomControls::LineEdit" name="leR6_80_83"/>
+             </item>
+             <item row="4" column="1">
+              <widget class="CustomControls::LineEdit" name="leR6_18_23"/>
+             </item>
+             <item row="2" column="1">
+              <widget class="CustomControls::LineEdit" name="leR6_6_11"/>
+             </item>
+             <item row="2" column="4">
+              <widget class="CustomControls::LineEdit" name="leR6_76_79"/>
+             </item>
+             <item row="8" column="1">
+              <widget class="CustomControls::LineEdit" name="leR6_42_47"/>
+             </item>
+             <item row="8" column="4">
+              <widget class="CustomControls::LineEdit" name="leR6_100_103"/>
+             </item>
+             <item row="9" column="1">
+              <widget class="CustomControls::LineEdit" name="leR6_48_53"/>
+             </item>
+             <item row="10" column="4">
+              <widget class="CustomControls::LineEdit" name="leR6_108_111"/>
+             </item>
+             <item row="11" column="1">
+              <widget class="CustomControls::LineEdit" name="leR6_60_65"/>
+             </item>
+             <item row="11" column="4">
+              <widget class="CustomControls::LineEdit" name="leR6_112_115"/>
+             </item>
+             <item row="11" column="0">
+              <widget class="QLabel" name="label_51">
+               <property name="text">
+                <string>LVL10</string>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="3">
+              <widget class="QLabel" name="label_52">
+               <property name="text">
+                <string>DT10</string>
+               </property>
+              </widget>
+             </item>
+             <item row="12" column="0">
+              <widget class="QLabel" name="label_53">
+               <property name="text">
+                <string>LVL11</string>
+               </property>
+              </widget>
+             </item>
+             <item row="12" column="3">
+              <widget class="QLabel" name="label_54">
+               <property name="text">
+                <string>DT11</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_43">
+               <property name="text">
+                <string>LVL6</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="3">
+              <widget class="QLabel" name="label_44">
+               <property name="text">
+                <string>DT6</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="3">
+              <widget class="QLabel" name="label_40">
+               <property name="text">
+                <string>DT4</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="label_41">
+               <property name="text">
+                <string>LVL5</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="3">
+              <widget class="QLabel" name="label_42">
+               <property name="text">
+                <string>DT5</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_31">
+               <property name="text">
+                <string>LVL0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="3">
+              <widget class="QLabel" name="label_32">
+               <property name="text">
+                <string>DT0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="3">
+              <widget class="QLabel" name="label_38">
+               <property name="text">
+                <string>DT3</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_39">
+               <property name="text">
+                <string>LVL4</string>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="3">
+              <widget class="QLabel" name="label_48">
+               <property name="text">
+                <string>DT8</string>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="0">
+              <widget class="QLabel" name="label_49">
+               <property name="text">
+                <string>LVL9</string>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="3">
+              <widget class="QLabel" name="label_50">
+               <property name="text">
+                <string>DT9</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_35">
+               <property name="text">
+                <string>LVL2</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="3">
+              <widget class="QLabel" name="label_36">
+               <property name="text">
+                <string>DT2</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_37">
+               <property name="text">
+                <string>LVL3</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_33">
+               <property name="text">
+                <string>LVL1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="3">
+              <widget class="QLabel" name="label_34">
+               <property name="text">
+                <string>DT1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="0">
+              <widget class="QLabel" name="label_45">
+               <property name="text">
+                <string>LVL7</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="3">
+              <widget class="QLabel" name="label_46">
+               <property name="text">
+                <string>DT7</string>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="0">
+              <widget class="QLabel" name="label_47">
+               <property name="text">
+                <string>LVL8</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2">
+              <spacer name="horizontalSpacer_8">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="1" column="5">
+              <widget class="QLabel" name="leTHR2_DT0">
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="5">
+              <widget class="QLabel" name="leTHR2_DT1">
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="5">
+              <widget class="QLabel" name="leTHR2_DT2">
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="5">
+              <widget class="QLabel" name="leTHR2_DT3">
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="5">
+              <widget class="QLabel" name="leTHR2_DT4">
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="5">
+              <widget class="QLabel" name="leTHR2_DT5">
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="5">
+              <widget class="QLabel" name="leTHR2_DT6">
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="5">
+              <widget class="QLabel" name="leTHR2_DT7">
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="5">
+              <widget class="QLabel" name="leTHR2_DT8">
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="5">
+              <widget class="QLabel" name="leTHR2_DT9">
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="5">
+              <widget class="QLabel" name="leTHR2_DT10">
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="12" column="5">
+              <widget class="QLabel" name="leTHR2_DT11">
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLabel" name="label_187">
+               <property name="text">
+                <string>&lt;0, 63&gt;</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="4">
+              <widget class="QLabel" name="label_188">
+               <property name="text">
+                <string>&lt;0, 15&gt;</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="2">
+           <widget class="QCustomPlot" name="ptREG6" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>200</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="17" column="0" colspan="2">
+        <widget class="CustomControls::FoldingBox" name="grREG15">
+         <property name="title">
+          <string>REG15</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_19">
+          <property name="topMargin">
+           <number>15</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <item row="4" column="0">
+           <widget class="QPushButton" name="pbNM_RefreshEEPROM">
+            <property name="text">
+             <string>Refresh</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QLabel" name="label_129">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="5">
+           <widget class="CustomControls::PushButton" name="pbNM_WriteREG15">
+            <property name="text">
+             <string>Write</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="CustomControls::PushButton" name="pbNM_ReadREG15">
+            <property name="text">
+             <string>Read</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_125">
+            <property name="text">
+             <string>EEPROM</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="5">
+           <widget class="CustomControls::PushButton" name="pbNM_ApplyTPENA">
+            <property name="text">
+             <string>Apply TP_ENA</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0" colspan="5">
+           <widget class="QComboBox" name="cmTPENA">
+            <item>
+             <property name="text">
+              <string>0000 - TST0(HiZ)                 TST1(HiZ)                  TST2(HiZ)                         TST3(HiZ)</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>0001 - TST0(HiZ)                 TST1(HiZ)                  THRESHOLD[9:0]            ECHO_MAG[9:0]</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>0010 - TST0(HiZ)                 TST1(HiZ)                  ECHO_ENVELOPE            ECHO_MAG[9:0]</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>0011 - TST0(HiZ)                 TST1(HiZ)                  X                                         X</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>0100 - TST0(HiZ)                 TST1(HiZ)                  ECHO_DET                        ECHO_MAG[9:0]</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>0101 - TST0(HiZ)                 TST1(HiZ)                  X                                         X</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>0110 - TST0(HiZ)                 TST1(HiZ)                  GAIN[7:0]                          ECHO_MAG[9:0]</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>0111 - TST0(HiZ)                 TST1(HiZ)                  IO_RXD                              IO_DRV(in)</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1000 - Analog RX                      '1'                          TST2(HiZ)                         TST3(HiZ)</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1001 - Analog RX                      '1'                         THRESHOLD[9:0]              ECHO_MAG[9:0]</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1010 - Analog RX                      '1'                         ECHO_ENVELOPE             ECHO_MAG[9:0]</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1011 - Analog RX                      '1'                         X                                         X</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1100 - Analog RX                      '1'                         ECHO_DET                        ECHO_MAG[9:0]</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1101 - Analog RX                      '1'                         X                                         X</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1110 - Analog RX                      '1'                         GAIN[7:0]                          ECHO_MAG[9:0]</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1111 - Analog RX                      '1'                         IO_RXD                              IO_DRV(in)</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <spacer name="horizontalSpacer_11">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_128">
+            <property name="text">
+             <string>Command byte/IC revision ID</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="6">
+           <widget class="Line" name="line">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="label_200">
+            <property name="text">
+             <string>&lt;0, 255&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="CustomControls::LineEdit" name="leR15_0_7"/>
+          </item>
+          <item row="5" column="0">
+           <widget class="QPushButton" name="pbNM_StoreEEPROM">
+            <property name="text">
+             <string>Store to EEPROM</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QGroupBox" name="groupBox_17">
+         <property name="title">
+          <string>Options</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_21">
+          <item row="0" column="3">
+           <widget class="CustomControls::LineEdit" name="leBAUDRATE"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="label_83">
+            <property name="text">
+             <string>Baudrate </string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <spacer name="horizontalSpacer_14">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_84">
+            <property name="text">
+             <string>DUT</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="8">
+           <widget class="QPushButton" name="pbExpandAll">
+            <property name="text">
+             <string>Expand All</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="9">
+           <widget class="QPushButton" name="pbHideAll">
+            <property name="text">
+             <string>Hide All</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="CustomControls::LineEdit" name="lineEdit">
+            <property name="accessibleName">
+             <string>DUT</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="18" column="0">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="19" column="0" colspan="2">
+        <widget class="Line" name="line_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="CustomControls::FoldingBox" name="grREG2">
+         <property name="title">
+          <string>REG2</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_23">
+          <item row="2" column="0">
+           <layout class="QGridLayout" name="gridLayout_22">
+            <item row="4" column="0">
+             <widget class="QLabel" name="label_166">
+              <property name="text">
+               <string>Delta RX period</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_165">
+              <property name="text">
+               <string>Delta TX period</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0" colspan="3">
+             <widget class="QLabel" name="lb_R2RXPer">
+              <property name="text">
+               <string>RX period</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_174">
+              <property name="text">
+               <string>2B</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0" colspan="3">
+             <widget class="QLabel" name="lb_R2TXPer">
+              <property name="text">
+               <string>TX Period</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="CustomControls::RealEdit" name="leDRX">
+              <property name="inputMask">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="CustomControls::RealEdit" name="leDTX">
+              <property name="inputMask">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="label_182">
+              <property name="text">
+               <string>&lt;-128,127&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QLabel" name="lbR2B_0_7_info">
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="2">
+             <widget class="QLabel" name="lbR2B_8_15_info">
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="label_176">
+              <property name="text">
+               <string>&lt;-6.4us, 6.35us&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <spacer name="horizontalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item row="1" column="0">
+           <widget class="Line" name="line_3">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout_12">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_173">
+              <property name="text">
+               <string>2A </string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_4">
+              <property name="text">
+               <string>Carrier TX/ RX period</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="lbR2A_0_10_info">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="CustomControls::LineEdit" name="leR2A_0_10"/>
+            </item>
+            <item row="1" column="4" colspan="2">
+             <spacer name="horizontalSpacer_10">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="0" column="4">
+             <widget class="CustomControls::PushButton" name="pbNM_ReadREG2">
+              <property name="text">
+               <string>Read</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="5">
+             <widget class="CustomControls::PushButton" name="pbNM_WriteREG2">
+              <property name="text">
+               <string>Write</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <spacer name="horizontalSpacer_12">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLabel" name="label_175">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>&lt;30kHz, 95kHz&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="label_183">
+              <property name="text">
+               <string>&lt;1333, 422&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="9" column="0" colspan="2">
+        <widget class="CustomControls::FoldingBox" name="grREG8">
+         <property name="title">
+          <string>REG8 - Dynamic gain</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_13">
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout_9">
+            <item row="0" column="1">
+             <widget class="QLabel" name="label_179">
+              <property name="text">
+               <string>&lt;0, 127&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_61">
+              <property name="text">
+               <string>Delta gain 0</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="CustomControls::LineEdit" name="leR8_0_6"/>
+            </item>
+            <item row="1" column="2">
+             <widget class="CustomControls::CheckBox" name="cbR8_7">
+              <property name="layoutDirection">
+               <enum>Qt::LeftToRight</enum>
+              </property>
+              <property name="text">
+               <string>sign</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <spacer name="horizontalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>125</width>
+                <height>17</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="1" column="4">
+             <widget class="QLabel" name="label_66">
+              <property name="text">
+               <string>DT0</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="5">
+             <widget class="CustomControls::LineEdit" name="leR8_40_43"/>
+            </item>
+            <item row="1" column="6">
+             <widget class="QLabel" name="lbR8_40_43_info">
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_62">
+              <property name="text">
+               <string>Delta gain 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="CustomControls::LineEdit" name="leR8_8_14"/>
+            </item>
+            <item row="2" column="2">
+             <widget class="CustomControls::CheckBox" name="cbR8_15">
+              <property name="layoutDirection">
+               <enum>Qt::LeftToRight</enum>
+              </property>
+              <property name="text">
+               <string>sign</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="4">
+             <widget class="QLabel" name="label_67">
+              <property name="text">
+               <string>DT1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="5">
+             <widget class="CustomControls::LineEdit" name="leR8_44_47"/>
+            </item>
+            <item row="2" column="6">
+             <widget class="QLabel" name="lbR8_44_47_info">
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_63">
+              <property name="text">
+               <string>Delta gain 2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="CustomControls::LineEdit" name="leR8_16_22"/>
+            </item>
+            <item row="3" column="2">
+             <widget class="CustomControls::CheckBox" name="cbR8_23">
+              <property name="layoutDirection">
+               <enum>Qt::LeftToRight</enum>
+              </property>
+              <property name="text">
+               <string>sign</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="4">
+             <widget class="QLabel" name="label_68">
+              <property name="text">
+               <string>DT2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="5">
+             <widget class="CustomControls::LineEdit" name="leR8_48_51"/>
+            </item>
+            <item row="3" column="6">
+             <widget class="QLabel" name="lbR8_48_51_info">
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="label_64">
+              <property name="text">
+               <string>Delta gain 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="CustomControls::LineEdit" name="leR8_24_30"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="CustomControls::CheckBox" name="cbR8_31">
+              <property name="layoutDirection">
+               <enum>Qt::LeftToRight</enum>
+              </property>
+              <property name="text">
+               <string>sign</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="4">
+             <widget class="QLabel" name="label_69">
+              <property name="text">
+               <string>DT3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="5">
+             <widget class="CustomControls::LineEdit" name="leR8_52_55"/>
+            </item>
+            <item row="4" column="6">
+             <widget class="QLabel" name="lbR8_52_55_info">
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="label_65">
+              <property name="text">
+               <string>Delta gain 4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="CustomControls::LineEdit" name="leR8_32_38"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="CustomControls::CheckBox" name="cbR8_39">
+              <property name="layoutDirection">
+               <enum>Qt::LeftToRight</enum>
+              </property>
+              <property name="text">
+               <string>sign</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="4">
+             <widget class="QLabel" name="label_70">
+              <property name="text">
+               <string>DT4</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="5">
+             <widget class="CustomControls::LineEdit" name="leR8_56_59"/>
+            </item>
+            <item row="0" column="5">
+             <widget class="QLabel" name="label_192">
+              <property name="text">
+               <string>&lt;0, 15&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="3">
+             <widget class="QLabel" name="lbR8_60_63_info">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0" colspan="7">
+             <widget class="Line" name="line_5">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="6">
+             <widget class="QLabel" name="lbR8_56_59_info">
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="0" colspan="7">
+             <widget class="QCustomPlot" name="ptREG8" native="true">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>150</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLabel" name="label_180">
+              <property name="text">
+               <string>checked = negative</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="6">
+             <widget class="CustomControls::PushButton" name="pbNM_WriteREG8">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Write</string>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="5">
+             <widget class="CustomControls::PushButton" name="pbNM_ReadREG8">
+              <property name="text">
+               <string>Read</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="0">
+             <widget class="QLabel" name="label_71">
+              <property name="text">
+               <string>Filter BW</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="2">
+             <widget class="CustomControls::LineEdit" name="leR8_60_63"/>
+            </item>
+            <item row="8" column="1" colspan="2">
+             <widget class="CustomControls::ComboBox" name="cmR8_64_65">
+              <item>
+               <property name="text">
+                <string>0 - No Filter</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>1 - Fast</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2 - Normal</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3 - Slow</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="7" column="0" colspan="2">
+             <widget class="QLabel" name="label_60">
+              <property name="text">
+               <string>Dyn. control start &lt;0, 15&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+      <zorder>grREG14</zorder>
+      <zorder>grREG13</zorder>
+      <zorder>grREG0</zorder>
+      <zorder>grREG7</zorder>
+      <zorder>groupBox_17</zorder>
+      <zorder>grREG8</zorder>
+      <zorder>grREG3</zorder>
+      <zorder>grREG5</zorder>
+      <zorder>grREG1</zorder>
+      <zorder>grREG2</zorder>
+      <zorder>grREG10</zorder>
+      <zorder>line_2</zorder>
+      <zorder>grREG4</zorder>
+      <zorder>grREG6</zorder>
+      <zorder>grREG15</zorder>
+      <zorder>grREG12</zorder>
+      <zorder>grREG9</zorder>
+      <zorder>widget</zorder>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CustomControls::PushButton</class>
+   <extends>QPushButton</extends>
+   <header>customcontrols.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CustomControls::ComboBox</class>
+   <extends>QComboBox</extends>
+   <header>customcontrols_combobox.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Applet</class>
+   <extends>QWidget</extends>
+   <header>applet.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CustomControls::LineEdit</class>
+   <extends>QLineEdit</extends>
+   <header location="global">customcontrols.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CustomControls::FoldingBox</class>
+   <extends>QGroupBox</extends>
+   <header>customcontrols_foldingbox.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CustomControls::SuperBox</class>
+   <extends>QWidget</extends>
+   <header>customcontrols.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CustomControls::CheckBox</class>
+   <extends>QCheckBox</extends>
+   <header>customcontrols_checkbox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CustomControls::RealEdit</class>
+   <extends>QLineEdit</extends>
+   <header>customcontrols_realedit.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="project_app.qrc"/>
+ </resources>
+ <connections/>
+</ui>

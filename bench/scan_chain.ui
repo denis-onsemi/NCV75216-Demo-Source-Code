@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Scanchain</class>
+ <widget class="Applet" name="Scanchain">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>862</width>
+    <height>676</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Scanchain</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" rowspan="2">
+    <widget class="QFrame" name="frame_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>140</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{  border: 2px solid darkgrey; border-radius:5px;}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>2</x>
+        <y>237</y>
+        <width>137</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Write in mode</string>
+      </property>
+      <widget class="QComboBox" name="cmTestModeBefore">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>19</y>
+         <width>125</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="CustomControls::PushButton" name="pbScanchain_Read">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>47</y>
+         <width>125</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="accessibleName">
+        <string>Read()</string>
+       </property>
+       <property name="text">
+        <string>Read</string>
+       </property>
+      </widget>
+      <widget class="CustomControls::PushButton" name="pbScanchain_Write">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>78</y>
+         <width>125</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="accessibleName">
+        <string>Write()</string>
+       </property>
+       <property name="text">
+        <string>Write</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>2</x>
+        <y>356</y>
+        <width>137</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Write and go to ANALOG</string>
+      </property>
+      <widget class="CustomControls::PushButton" name="pbScanchain_AnalogWrite">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>78</y>
+         <width>125</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="accessibleName">
+        <string>AnalogWrite()</string>
+       </property>
+       <property name="text">
+        <string>Write</string>
+       </property>
+      </widget>
+      <widget class="CustomControls::PushButton" name="pbScanchain_AnalogRead">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>48</y>
+         <width>125</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="accessibleName">
+        <string>AnalogRead()</string>
+       </property>
+       <property name="text">
+        <string>Read</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cmTestModeAfter">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>20</y>
+         <width>125</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>606</y>
+        <width>137</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Memory</string>
+      </property>
+      <widget class="QPushButton" name="pbXor">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>43</x>
+         <y>20</y>
+         <width>45</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>XOR</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pbMs">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>20</y>
+         <width>30</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>MS</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pbMr">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>94</x>
+         <y>20</y>
+         <width>35</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>MR</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>1</x>
+        <y>0</y>
+        <width>137</width>
+        <height>82</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>View</string>
+      </property>
+      <widget class="QRadioButton" name="rdLayoutModeBrief">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>45</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Brief</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="rdLayoutModeCompact">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>37</y>
+         <width>94</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Compact mode</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="rdLayoutModeFull">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>14</y>
+         <width>39</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Full</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_7">
+      <property name="geometry">
+       <rect>
+        <x>1</x>
+        <y>180</y>
+        <width>137</width>
+        <height>48</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Filter</string>
+      </property>
+      <widget class="QComboBox" name="cmFilter">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>20</y>
+         <width>125</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>ALL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>DIGITAL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ANALOG</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QCheckBox" name="cbAutoconnectPins">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>480</y>
+        <width>111</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Autoconnect pins</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="CustomControls::ComboBox" name="cmCONFIG">
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>0</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="6">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="2" colspan="7">
+    <widget class="QTabWidget" name="twScanchains">
+     <property name="tabPosition">
+      <enum>QTabWidget::North</enum>
+     </property>
+     <property name="tabShape">
+      <enum>QTabWidget::Rounded</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>0</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="CustomControls::SuperBox" name="suScanchain0" native="true"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>1</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="CustomControls::SuperBox" name="suScanchain1" native="true"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>2</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="CustomControls::SuperBox" name="suScanchain2" native="true"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>3</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <widget class="CustomControls::SuperBox" name="suScanchain3" native="true"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>4</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="0" column="0">
+        <widget class="CustomControls::SuperBox" name="suScanchain4" native="true"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item row="1" column="4">
+    <widget class="QPushButton" name="pbFill0">
+     <property name="text">
+      <string>Fill '0'</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Config</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="8">
+    <widget class="QLineEdit" name="leHighlightText"/>
+   </item>
+   <item row="1" column="7">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Highlight</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="5">
+    <widget class="QPushButton" name="pbSaveBack">
+     <property name="text">
+      <string>Save back</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CustomControls::PushButton</class>
+   <extends>QPushButton</extends>
+   <header>customcontrols.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Applet</class>
+   <extends>QWidget</extends>
+   <header>applet.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CustomControls::ComboBox</class>
+   <extends>QComboBox</extends>
+   <header location="global">customcontrols_combobox.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CustomControls::SuperBox</class>
+   <extends>QWidget</extends>
+   <header>customcontrols.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
